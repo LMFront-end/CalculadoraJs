@@ -151,7 +151,7 @@ button#equal {
 
 .calculator button.btn-number {
     background-color: #91c7e4;
-    color: #000;
+    color: rgb(70, 199, 188);
     box-shadow: 0 0 26px #9ec1d4;
 }
 
@@ -170,3 +170,35 @@ button#equal {
 
 
 /* dark theme */
+
+.calculator.dark {
+    background-color: #071115;
+}
+
+.calculator.dark #display {
+    color: #f8fafd;
+}
+
+.calculator.dark button#clear {
+    background-color: #ff7675;
+    color: #fff;
+    box-shadow: 0 0 26px #d1565ae5;
+}
+
+.calculator.dark button.btn-number {
+    background-color: #1b2f38;
+    color: rgb(70, 199, 188);
+    box-shadow: 0 0 26px #233036;
+}
+
+.calculator.dark button.btn-operator {
+    background-color: #34495e;
+    color: #f1c40f;
+    box-shadow: 0 0 26px #795d77;
+}
+
+.calculator.dark button.btn-equal {
+    background-color: #2ab131c2;
+    color: #fff;
+    box-shadow: 0 0 26px #7ae7959b;
+}
