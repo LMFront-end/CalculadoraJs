@@ -143,10 +143,9 @@ button#equal {
 }
 
 .calculator button#clear {
-    background-color: #ffd5d8;
+    background-color: #fab1a0;
     color: #fc4552;
     box-shadow: 0 0 26px #b86167c2;
-    border: 1px dashed rgb(143, 127, 127);
 }
 
 .calculator button.btn-number {
@@ -162,10 +161,9 @@ button#equal {
 }
 
 .calculator button.btn-equal {
-    background-color: #adf9e7;
+    background-color: #55efc3ca;
     color: #000;
     box-shadow: 0 0 26px #99e7d5;
-    border: 1px dashed rgb(143, 127, 127);
 }
 
 

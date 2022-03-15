@@ -1,19 +1,31 @@
 let doc = document;
 
+
 const display = doc.querySelector('#display');
 const buttons = doc.querySelectorAll('button');
 
 buttons.forEach((item) => {
 
     item.onclick = () => {
+
+        // limpiar la pantalla
         if (item.id == 'clear') {
             display.innerText = '';
-        } else if (item.id == 'backspace') {
+        }
+
+        // operacion para borrar un solo dato
+        else if (item.id == 'backspace') {
             let string = display.innerText.toString();
             display.innerText = string.substr(0, string.length - 1);
-        } else if (display.innerText != '' && item.id == 'equal') {
+        }
+
+        // operacion con el botón igual
+        else if (display.innerText != '' && item.id == 'equal') {
             display.innerText = eval(display.innerText);
-        } else if (display.innerText == '' && item.id == 'equal') {
+        }
+
+        // operacion con el botón igual
+        else if (display.innerText == '' && item.id == 'equal') {
             display.innerText = 'Empty!';
             setTimeout(() => (display.innerText = ''), 2000);
         } else {
