@@ -135,7 +135,7 @@ button#equal {
 /* light theme */
 
 .calculator {
-    background-color: #ffff;
+    background-color: rgba(255, 255, 255, 0.753);
 }
 
 .calculator #display {
@@ -145,9 +145,28 @@ button#equal {
 .calculator button#clear {
     background-color: #ffd5d8;
     color: #fc4552;
+    box-shadow: 0 0 26px #b86167c2;
+    border: 1px dashed rgb(143, 127, 127);
 }
 
 .calculator button.btn-number {
-    background-color: #c3eaff;
+    background-color: #91c7e4;
     color: #000;
+    box-shadow: 0 0 26px #9ec1d4;
 }
+
+.calculator button.btn-operator {
+    background-color: #eb8be6;
+    color: #2f0a2d;
+    box-shadow: 0 0 26px #dfbadd;
+}
+
+.calculator button.btn-equal {
+    background-color: #adf9e7;
+    color: #000;
+    box-shadow: 0 0 26px #99e7d5;
+    border: 1px dashed rgb(143, 127, 127);
+}
+
+
+/* dark theme */
