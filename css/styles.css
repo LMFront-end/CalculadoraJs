@@ -13,6 +13,15 @@
     -o-transition: all 0.5s ease;
 }
 
-body {
+html {
     font-family: 'Fredoka', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rbga(79, 51, 176, 1), rgba(210, 53, 165));
 }
