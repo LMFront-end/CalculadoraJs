@@ -22,4 +22,14 @@ buttons.forEach((item) => {
     }
 });
 
-const themeToggleBtn = doc.querySelector('.theme-toggle')
+const themeToggleBtn = doc.querySelector('.theme-toggle');
+const calculator = doc.querySelector('.calculator');
+const toggleIcon = doc.querySelector('.toggle-icon');
+
+let isDark = true;
+
+themeToggleBtn.onclick = () => {
+    calculator.classList.toggle('dark');
+    themeToggleBtn.classList.toggle('active');
+    isDark = !isDark;
+}
