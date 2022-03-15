@@ -45,3 +45,33 @@ body {
     -o-border-radius: 10px;
     box-shadow: 0 0 36px #000;
 }
+
+.theme-toggle {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.theme-toggle.active {
+    color: #333;
+}
+
+.theme-toggle.active::before {
+    background-color: #fff;
+}
+
+.theme-toggle::before {
+    content: "";
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
